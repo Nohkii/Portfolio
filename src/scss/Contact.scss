@@ -1,0 +1,31 @@
+.contact-title {
+  font-size: 3.5rem;
+}
+.contact-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.contact-iconBox {
+  display: flex;
+}
+.contact-phoneBox,
+.ontact-mailBox,
+.contact-gitBox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 35px;
+}
+.contact-phoneBox{
+margin-right: 35px;
+}
+.contact-phone,
+.contact-mail,
+.contact-git{
+    text-align: center;
+
+}

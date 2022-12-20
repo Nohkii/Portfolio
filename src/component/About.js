@@ -4,16 +4,16 @@ import "../scss/About.scss";
 const About = () => {
   return (
     <div className="about-container">
-      <div className="leftBox">
-        <div className="photo"></div>
-        <div className="name">
+      <div className="about-leftBox">
+        <div className="about-photo"></div>
+        <div className="about-name">
           노은기
           <br />
           학력사항~<br/>
         </div>
       </div>
-      <div className="rightBox">
-        <div className="carrer">
+      <div className="about-rightBox">
+        <div className="about-carrer">
           <span>경력</span>
           <br />
           <br />
@@ -23,7 +23,7 @@ const About = () => {
           
           
         </div>
-        <div className="introduce">
+        <div className="about-introduce">
           <span>소개</span>
           <br />
           <br />

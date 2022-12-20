@@ -9,7 +9,7 @@
     // height: 100%;
     margin: 20px;
   }
-  .leftBox {
+  .about-leftBox {
     width: 50%;
     height: 100%;
     display: flex;
@@ -17,22 +17,22 @@
     // justify-content: center;
     align-items: center;
   }
-  .photo {
+  .about-photo {
     width: 250px;
     height: 250px;
     background: url("https://cdn.clien.net/web/api/file/F01/12373697/2f6bebab06c67b.jpg?w=780&h=30000");
     margin-top: 3em;
   }
-  .name {
+  .about-name {
     margin-top: 3em;
   }
-  .carrer {
+  .about-carrer {
+    height: 30%;
+  }
+  .about-introduce {
     height: 50%;
   }
-  .introduce {
-    height: 50%;
-  }
-  .rightBox {
+  .about-rightBox {
     width: 50%;
     margin-top: 3em;
     display: flex;
@@ -41,15 +41,15 @@
     flex-direction: column;
     
   }
-  .carrer,
-  .introduce {
+  .about-carrer,
+  .about-introduce {
     border: 1px solid lightgray;
     border-radius: 7px;
     width: 70%;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   }
-  .introduce{
+  .about-introduce{
     margin-top: 2.5em;
   }
-  
+ 
   
