@@ -5,14 +5,16 @@ const Project = () => {
   return (
     <div className="project-container">
       <div className="project-box">
+        <div className="project-big-left-box">
         <div className="project-left-box">
         </div><br />
-        {/* <div className="project-left-detail">API를 활용한 레시피 검색 사이트</div> */}
+        <div className="project-left-detail">API를 활용한 레시피 검색 사이트</div>
+        </div>
         <div className="project-mid-box">
-          <img className="project-mid-detail"></img>
+          <div className="project-mid-detail"></div>
         </div>
         <div className="project-right-box">
-          <img className="project-right-detail"></img>
+          <div className="project-right-detail">Monit 홈페이지 리뉴얼 작업</div>
         </div>
       </div>
     </div>

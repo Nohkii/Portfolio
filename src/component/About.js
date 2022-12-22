@@ -11,7 +11,7 @@ const About = () => {
       </div>
       <div className="about-rightBox">
         <div className="about-carrer">
-          <span className="about-semiTitle">경력</span>
+          <span className="about-semiTitle">Career</span>
           <br />
           <br />
           <span className="about-detailtxt">
@@ -20,7 +20,7 @@ const About = () => {
           </span>
         </div>
         <div className="about-introduce">
-          <span className="about-semiTitle">소개</span>
+          <span className="about-semiTitle">Introduction</span>
           <br />
           <br />
           <span className="about-detailtxt">
@@ -35,11 +35,11 @@ const About = () => {
           </span>
         </div>
         <div className="about-skill">
-          <span className="about-semiTitle">교육사항</span>
+          <span className="about-semiTitle">Skills</span>
           <br />
           <br />
           <span className="about-detailtxt">
-            SeSac 청년취업사관학교 - 기업연계형 프론트엔드 실무 프로젝트 과정
+            HTML, CSS, JavaScript, React, Git, Bootstrap
           </span>
         </div>
       </div>

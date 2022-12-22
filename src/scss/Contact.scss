@@ -41,3 +41,14 @@ html {
 .contact-detail-intro {
   font-size: 1.3em;
 }
+.contact-git a,
+.contact-mail a,
+.contact-phone a{
+  color: black;
+}
+.contact-git:hover,
+.contact-mail:hover,
+.contact-phone:hover {
+  color: var(--color-main-skyblue);
+  transform: scale(1.4);
+}
