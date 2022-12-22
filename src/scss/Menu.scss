@@ -2,10 +2,6 @@
   padding: 0;
   margin: 0;
 }
-:root {
-  --color-point: #cec0d4d0;
-  --color-deep-point: #766c7ad0;
-}
 .menu-contatiner {
   width: 100vw;
   height: 20vh;
@@ -14,8 +10,7 @@
   justify-content: center;
   // background-color: var(--color-point);
   align-items: center;
-  // background-color: #8BC6EC;
-  // background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+
 }
 a {
   text-decoration: none;
@@ -24,12 +19,13 @@ a {
   width: 4%;
   height: 4%;
 }
-span {
+.menu-name{
   font-family: var(--font-UbuntuRegular);
   font-weight: lighter;
-  color: black;
+  color:var(--color-main-skyblue);
   font-size: 1.2em;
 }
-span:hover {
-  color: #536dfe;
+.menu-name:hover {
+  color: hsl(204, 92%, 35%);
+  text-decoration: underline;
 }

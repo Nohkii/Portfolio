@@ -4,14 +4,17 @@ import "../scss/Project.scss";
 const Project = () => {
   return (
     <div className="project-container">
-      <div className="project-left-box">
-        <img className="project-left-image"></img><br/>
-      </div>
-      <div className="project-mid-box">
-      <img className="project-mid-image"></img>
-      </div>
-      <div className="project-right-box">
-      <img className="project-right-image"></img>
+      <div className="project-box">
+        <div className="project-left-box">
+          <img className="project-left-image"></img>
+          <br />
+        </div>
+        <div className="project-mid-box">
+          <img className="project-mid-image"></img>
+        </div>
+        <div className="project-right-box">
+          <img className="project-right-image"></img>
+        </div>
       </div>
     </div>
   );

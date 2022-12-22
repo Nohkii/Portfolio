@@ -9,9 +9,10 @@ const Contact = () => {
     <>
       <div className="contact-container">
         <div className="contact-textBox">
-          <div className="contact-title">Contact</div>
+          {/* <div className="contact-title">Contact</div> */}
           <br />
-          <div className="contact-detail">
+          <br />
+          <div className="contact-detail-intro">
             구인 관련 및 궁금한 점이 있으시다면, 아래 연락처를 통해 연락
             바랍니다.
           </div>
@@ -19,22 +20,22 @@ const Contact = () => {
         <div className="contact-iconBox">
           <div className="contact-phoneBox">
             <div className="contact-phone">
-              <FaMobileAlt size="30" />
+              <FaMobileAlt size="25" />
             </div>
-            <div>+82 010-7542-2441</div>
+            <div className="contact-detail">+82 010-7542-2441</div>
           </div>
           <div className="contact-mailBox">
             <div className="contact-mail">
-              <FaRegEnvelope size="30" />
+              <FaRegEnvelope size="25" />
             </div>
-            <div>jin0201948@gmail.com</div>
+            <div className="contact-detail">jin0201948@gmail.com</div>
           </div>
 
           <div className="contact-gitBox">
             <div className="contact-git">
-              <GoMarkGithub size="30" />
+              <GoMarkGithub a href="https://github.com/Nohkii" size="25" />
             </div>
-            <div>https://github.com/Nohkii</div>
+            <div className="contact-detail">https://github.com/Nohkii</div>
           </div>
         </div>
       </div>

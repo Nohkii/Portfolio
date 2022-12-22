@@ -1,16 +1,86 @@
-.home-contatiner {
+:root {
+  --color-main-skyblue: #1093fe;
+}
+
+@font-face {
+  font-family: "bitbit";
+  src: url("//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff"),
+    url("//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff2");
+}
+@font-face {
+  font-family: 'NanumSquareNeo-Variable';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+html,
+body {
   width: 100%;
   height: 100%;
+  -webkit-font-smoothing: antialiased;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-container {
+  width: 100%;
+  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  // border: 1px solid blue;
+  background: url(../../public/images/blue4backbottom.jpg) no-repeat;
+  background-size: cover;
 }
-.home-intro {
-  font-size: 20px;
+.home-text1 {
+  font-size: 1.5rem;
+  font-family: 'NanumSquareNeo-Variable';
+
 }
-span {
-  color: var(--color-deep-point);
-  font-weight: 700;
-  font-family: var(--font-natoSerif);
+h1 {
+  height: 100px;
 }
-//폰트변경 글자 하나씩 나오는 효과
+h1 span {
+  position: relative;
+  top: 20px;
+  display: inline-block;
+  animation: bounce 0.4s ease infinite alternate;
+  font-family: "bitbit";
+  font-size: 3em;
+  font-weight: 20;
+  color: var(--color-main-skyblue);
+  text-shadow: 0 1px 0 #dbedf6, 0 2px 0 #dbedf6, 0 3px 0 #dbedf6,
+    0 4px 0 #dbedf6, 0 5px 0 #dbedf6, 0 6px 0 transparent, 0 7px 0 transparent,
+    0 8px 0 transparent, 0 9px 0 transparent, 0 10px 10px #dbedf6;
+}
+
+h1 span:nth-child(2) {
+  animation-delay: 0.1s;
+}
+h1 span:nth-child(3) {
+  animation-delay: 0.2s;
+}
+h1 span:nth-child(4) {
+  animation-delay: 0.3s;
+}
+h1 span:nth-child(5) {
+  animation-delay: 0.4s;
+}
+h1 span:nth-child(6) {
+  animation-delay: 0.5s;
+}
+h1 span:nth-child(7) {
+  animation-delay: 0.6s;
+}
+h1 span:nth-child(8) {
+  animation-delay: 0.7s;
+}
+
+@keyframes bounce {
+  100% {
+    top: -20px;
+    text-shadow: 0 1px 0 #dbedf6, 0 2px 0 #dbedf6, 0 3px 0 #dbedf6,
+      0 4px 0 #dbedf6, 0 5px 0 #dbedf6, 0 6px 0 #dbedf6, 0 7px 0 #dbedf6,
+      0 8px 0 #dbedf6, 0 9px 0 #dbedf6, 0 50px 25px hsl(200, 80%, 84%);
+  }
+}
