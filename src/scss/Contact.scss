@@ -2,9 +2,6 @@ html {
   width: 100%;
   height: 100%;
 }
-.contact-title {
-  font-size: 3.5rem;
-}
 .contact-container {
   width: 100%;
   height: 80vh;
@@ -19,20 +16,21 @@ html {
   display: flex;
 }
 .contact-phoneBox,
-.ontact-mailBox,
+.contact-mailBox,
 .contact-gitBox {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 35px;
+  margin-left: 2.5rem;
 }
 .contact-phoneBox {
-  margin-right: 35px;
+  margin-right: 2.5rem;
 }
 .contact-phone,
 .contact-mail,
 .contact-git {
   text-align: center;
+  display: inline;
 }
 .contact-textBox,
 .contact-detail {
@@ -43,12 +41,51 @@ html {
 }
 .contact-git a,
 .contact-mail a,
-.contact-phone a{
+.contact-phone a {
   color: black;
 }
 .contact-git:hover,
 .contact-mail:hover,
 .contact-phone:hover {
-  color: var(--color-main-skyblue);
   transform: scale(1.4);
+}
+
+@media (max-width: 425px) {
+  .contact-phoneBox,
+  .contact-mailBox,
+  .contact-gitBox {
+    margin-left: 1rem;
+  }
+  .contact-detail-intro {
+    font-size: 0.8rem;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .contact-detail {
+    font-size: 0.4rem;
+  }
+  .contact-git:hover,
+  .contact-mail:hover,
+  .contact-phone:hover {
+    transform: scale(1.1);
+  }
+}
+@media (max-width: 768px) {
+  .contact-phoneBox,
+  .contact-mailBox,
+  .contact-gitBox {
+    margin-left: 1.2rem;
+  }
+  .contact-detail-intro {
+    font-size: 0.9rem;
+  }
+  .contact-detail {
+    font-size: 0.6rem;
+  }
+  .contact-git:hover,
+  .contact-mail:hover,
+  .contact-phone:hover {
+    transform: scale(1.2);
+  }
 }

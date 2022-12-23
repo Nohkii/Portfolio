@@ -34,15 +34,19 @@ html {
   display: flex;
   border-radius: 7px;
 }
-.project-right-box {
-  // margin-right: 300px;
-}
 .project-left-box {
   background: url("../../public/images/포폴캡쳐2.JPG") no-repeat center;
   background-size: cover;
 }
-.project-left-box:hover,
+.project-left-box:hover{
+  box-shadow: #ffc40090 4px 4px 5px;
+  cursor: pointer;
+}
 .project-mid-box:hover {
+  box-shadow: rgba(129, 32, 208, 0.515) 4px 4px 5px;
+  cursor: pointer;
+}
+.project-right-box{
   box-shadow: #5bc6fb87 4px 4px 5px;
   cursor: pointer;
 }
@@ -50,6 +54,25 @@ html {
   background: url("../../public/images/투두\ 캡쳐.JPG") no-repeat center;
   background-size: cover;
 }
-// .project-left-detail{
-
-// }
+@media (max-width: 425px) {
+  .project-box {
+    flex-direction: column;
+  }
+  .project-left-box,
+  .project-mid-box,
+  .project-right-box {
+    width: 45%;
+    height: 30%;
+  }
+}
+@media (max-width: 768px) {
+  .project-box {
+    flex-direction: column;
+  }
+  .project-left-box,
+  .project-mid-box,
+  .project-right-box {
+    width: 45%;
+    height: 35%;
+  }
+}

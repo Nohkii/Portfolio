@@ -5,12 +5,10 @@
 .menu-contatiner {
   width: 100vw;
   height: 20vh;
-  // border: 1px solid blue;
   display: flex;
   justify-content: center;
   // background-color: var(--color-point);
   align-items: center;
-
 }
 .menu-contatiner a {
   text-decoration: none;
@@ -19,13 +17,34 @@
   width: 4%;
   height: 4%;
 }
-.menu-name{
+.menu-name {
   font-family: var(--font-UbuntuRegular);
   font-weight: lighter;
-  color:var(--color-main-skyblue);
+  color: var(--color-main-skyblue);
   font-size: 1.2em;
 }
 .menu-name:hover {
   color: hsl(204, 92%, 35%);
   text-decoration: underline;
+}
+@media (max-width: 400px) {
+  .menu-name {
+    // width: 100%;
+    // margin: 0 auto;
+    font-size: 0.7em;
+  }
+  .menu-contatiner a {
+    padding: 1.8em;
+  }
+  .menu-contatiner{
+    // margin: 0 auto;
+  } 
+}
+@media (max-width: 600px) {
+  .menu-name {
+    font-size: 1em;
+  }
+  .menu-contatiner a {
+    padding: 2.2em;
+  }
 }
