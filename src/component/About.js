@@ -22,7 +22,7 @@ const About = () => {
           <br />
           <span className="about-detailtxt">
             - 현대카드 어린이집 2020.3~2022.2
-            <br />- NC soft 어린이집 2022.3~2022.9
+            <br />- NCSOFT 어린이집 2022.3~2022.9
           </span>
         </div>
         <div className="about-introduce">

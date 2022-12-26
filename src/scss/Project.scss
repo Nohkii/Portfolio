@@ -47,6 +47,10 @@ html {
   cursor: pointer;
 }
 .project-right-box{
+  background: url("../../public/images/portfoliocap.jpg") no-repeat center;
+  background-size:cover;
+}
+.project-right-box:hover{
   box-shadow: #5bc6fb87 4px 4px 5px;
   cursor: pointer;
 }

@@ -5,11 +5,19 @@ const Project = () => {
   return (
     <div className="project-container">
       <div className="project-box">
-        <div className="project-left-box">
-        </div><br />
+        <div className="project-left-box"></div>
+        <br />
         {/* <div className="project-left-detail">API를 활용한 레시피 검색 사이트</div> */}
-        <div className="project-mid-box">
-          <img className="project-mid-detail"></img>
+        <div
+          className="project-mid-box"
+          onClick={() =>
+            window.open(
+              "https://63a5358435a1fb24c59f8c35--todo-list-nohkki.netlify.app/",
+              "_blank"
+            )
+          }
+        >
+
         </div>
         <div className="project-right-box">
           <img className="project-right-detail"></img>
